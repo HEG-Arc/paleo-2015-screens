@@ -34,6 +34,8 @@ if [ -f /boot/boot-screen.sh ]; then
 fi
 ```
 
+Sixth, copy ``screen.cfg`` to ``/home/screen`` and edit the ``start_url`` value to fit your needs
 
+That's all, reboot and enjoy!
 
 
