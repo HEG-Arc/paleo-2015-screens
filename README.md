@@ -27,12 +27,12 @@ by:
 
 Fifth, run ``boot-screen.sh`` at boot by adding the following to ``/etc/rc.local``:
 
-``
+```
 if [ -f /boot/boot-screen.sh ]; then
 	ln -fs /boot/boot-screen.sh /home/screen/.xinitrc;
-	su - pi -c 'startx' &
+	su - screen -c 'startx' &
 fi
-``
+```
 
 
 
